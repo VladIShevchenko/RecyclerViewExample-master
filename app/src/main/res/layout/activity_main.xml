@@ -9,17 +9,15 @@
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
-        android:background="@color/colorA"
+        android:layout_height="66dp"
+        android:background="@color/red"
         app:title=" ">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/app_name"
-            android:textColor="#000000"
+            android:textColor="@color/colorA"
             android:textSize="28sp"
             android:textStyle="bold" />
 
@@ -43,9 +41,10 @@
         android:layout_marginBottom="16dp"
         android:background="@color/colorA"
         android:src="@drawable/ic_action_named"
-        app:backgroundTint="@color/colorAccent"
+        app:backgroundTint="@color/red"
         app:borderWidth="0dp"
         app:elevation="4dp"
         app:fabSize="normal"
-        app:rippleColor="@color/colorPrimary" />
+        app:rippleColor="@color/colorPrimary"
+        />
 </RelativeLayout>

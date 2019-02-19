@@ -1,12 +1,18 @@
 <resources>
     <string name="app_name">EmailApp</string>
-    <string name="addressee">GitHub</string>
+    <string name="addressee">Addressee</string>
     <string name="fish_hours">4h</string>
+    <string name="fish_text">Dogfish shark Pacific lamprey rock beauty Black mackerel Devario slender snipe eel, ribbon eel. Slender snipe eel scissor-tail rasbora New World rivuline yellow-and-black triplefin rough sculpin icefish starry flounder largenose fish threespine stickleback common carp. Garpike, flying characin trumpetfish, dab squaretail Peter\'s elephantnose fish parasitic catfish.</string>
     <string name="create">Write</string>
+    <string name="email_title_placeholder">Anonymous</string>
     <string name="editext1">To</string>
     <string name="editext2">Subject</string>
     <string name="editext3">Compose email</string>
     <string name="email_theme">A personal access token has beenadded to your account</string>
+    <string name="theme">Theme</string>
+    <string name="nick">Nickname</string>
+    <string name="text">Text</string>
+    <string name="date">Date</string>
 
     <string name="checkbox">Add business signature</string>
 </resources>

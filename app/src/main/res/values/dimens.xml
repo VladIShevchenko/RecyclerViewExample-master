@@ -6,6 +6,9 @@
     <dimen name="secondary_text_size">20sp</dimen>
     <dimen name="edit_text_margin">70dp</dimen>
     <dimen name="checkbox_text_margin">50dp</dimen>
+    <dimen name="margin_22">22dp</dimen>
+    <dimen name="text_size_18">18dp</dimen>
+    <dimen name="text_size_14">14dp</dimen>
 
     <!-- recycler item dimensions  -->
     <dimen name="max_email_item_height">120dp</dimen>

@@ -34,7 +34,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="url" value="jar:file:/E:/Android/plugins/android/lib/android.jar!/images/material_design_icons/content/ic_send_black_24dp.xml" />
+                                                <entry key="url" value="jar:file:/E:/Android/plugins/android/lib/android.jar!/images/material_design_icons/social/ic_sentiment_satisfied_black_24dp.xml" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -66,9 +66,9 @@
                                   </option>
                                   <option name="values">
                                     <map>
-                                      <entry key="outputName" value="ic_creat_send" />
+                                      <entry key="outputName" value="ic_smile" />
                                       <entry key="theme" value="CUSTOM" />
-                                      <entry key="themeColor" value="ffffff" />
+                                      <entry key="themeColor" value="020202" />
                                     </map>
                                   </option>
                                 </PersistentState>

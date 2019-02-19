@@ -4,38 +4,63 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:maxHeight="@dimen/max_email_item_height">
-
+<ImageView
+    android:id="@+id/photo"
+    android:layout_width="60dp"
+    android:layout_height="60dp"
+    android:layout_centerVertical="true"
+    android:layout_margin="8dp"
+    android:src="@drawable/ic_smile"/>
     <TextView
         android:id="@+id/title_text_view"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/email_item_margin_between_text_views"
         android:layout_toStartOf="@+id/time_text_view"
         android:ellipsize="end"
-        android:maxLines="1"
-        android:layout_marginLeft="60dp"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@id/photo"
         android:paddingStart="@dimen/default_margin"
         android:paddingTop="@dimen/default_margin"
         android:textColor="@android:color/black"
-        android:textSize="@dimen/title_text_size"
-        tools:text="@string/addressee"
+        android:textSize="@dimen/secondary_text_size"
+        tools:text="Adresee"
+
         android:textStyle="bold"/>
 
     <TextView
+      android:layout_toStartOf="@id/time_text_view"
+        android:layout_toEndOf="@id/photo"
         android:id="@+id/subtitle_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/title_text_view"
         android:layout_marginBottom="@dimen/email_item_margin_between_text_views"
         android:ellipsize="end"
-        android:maxLines="2"
-        android:layout_marginLeft="60dp"
+        android:maxLines="1"
         android:paddingStart="@dimen/default_margin"
         android:paddingEnd="@dimen/default_margin"
         android:textColor="@android:color/black"
-        android:textSize="@dimen/secondary_text_size"
-        tools:text="@string/email_theme" />
+        android:textSize="@dimen/text_size_18"
+        tools:text="Theme"
+        android:textStyle="bold"
+        />
 
+    <TextView
+        android:layout_toStartOf="@id/time_text_view"
+        android:layout_toEndOf="@id/photo"
+        android:id="@+id/content_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/subtitle_text_view"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:paddingStart="@dimen/default_margin"
+        android:paddingEnd="@dimen/default_margin"
+        android:paddingBottom="@dimen/default_margin"
+        android:textSize="@dimen/text_size_14"
+        tools:text="Text"
+        android:textColor="@color/grey"/>
 
     <TextView
         android:id="@+id/time_text_view"
@@ -45,10 +70,12 @@
         android:layout_alignParentEnd="true"
         android:ellipsize="end"
         android:maxLines="1"
+        android:textColor="@color/grey"
         android:padding="@dimen/default_margin"
-        android:textSize="@dimen/title_text_size"
-        tools:text="@string/fish_hours" />
-
-
+        android:textSize="@dimen/text_size_14"
+        tools:text="@string/fish_hours"
+        />
 
 </RelativeLayout>
+
+
