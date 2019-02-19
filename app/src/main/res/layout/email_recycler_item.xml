@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:maxHeight="@dimen/max_email_item_height">
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/email_item_margin_between_text_views"
+        android:layout_toStartOf="@+id/time_text_view"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:layout_marginLeft="60dp"
+        android:paddingStart="@dimen/default_margin"
+        android:paddingTop="@dimen/default_margin"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/title_text_size"
+        tools:text="@string/addressee"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/subtitle_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_text_view"
+        android:layout_marginBottom="@dimen/email_item_margin_between_text_views"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:layout_marginLeft="60dp"
+        android:paddingStart="@dimen/default_margin"
+        android:paddingEnd="@dimen/default_margin"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/secondary_text_size"
+        tools:text="@string/email_theme" />
+
+
+    <TextView
+        android:id="@+id/time_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:padding="@dimen/default_margin"
+        android:textSize="@dimen/title_text_size"
+        tools:text="@string/fish_hours" />
+
+
+
+</RelativeLayout>

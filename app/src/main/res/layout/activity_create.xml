@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".CreatActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_marginBottom="12dp"
+        android:background="@color/red"
+        app:title="">
+<ImageButton
+    android:id="@+id/imageButton"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:src="@drawable/ic_creat_arrow"
+    android:background="@color/red"
+    android:layout_marginLeft="-10dp"
+
+    />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/create"
+            android:textColor="@color/colorA"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="60dp"/>
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_creat_send"
+            android:background="@color/red"
+            android:layout_marginLeft="150dp"
+
+
+            />
+
+    </android.support.v7.widget.Toolbar>
+    <EditText
+        android:id="@+id/edittext1"
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edit_text_margin"
+        android:hint="@string/editext1"/>
+    <EditText
+        android:id="@+id/edittext2"
+        android:layout_below="@+id/edittext1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edit_text_margin"
+        android:hint="@string/editext2"/>
+    <EditText
+        android:id="@+id/edittext3"
+        android:layout_below="@+id/edittext2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edit_text_margin"
+        android:hint="@string/editext3"/>
+
+    <CheckBox
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/edittext3"
+        android:layout_marginLeft="@dimen/little_margin"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/checkbox"
+        android:layout_below="@id/edittext3"
+        android:layout_marginTop="@dimen/default_margin"
+        android:layout_marginLeft="@dimen/checkbox_text_margin"
+        android:textStyle="bold"/>
+</RelativeLayout>
